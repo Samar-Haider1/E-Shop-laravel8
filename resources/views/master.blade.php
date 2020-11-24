@@ -12,14 +12,52 @@
 </head>
 <body>
     {{View::make('header')}}
-    @yield('content')
+        @yield('content')
     {{View::make('footer')}}
 </body>
 <style>
     .custom-login{
-        height: 700px;
-        padding-top: 100px;
+        height: 650px;
+        padding-top: 150px;
+    }
+    .custom-product{
+        height: 705px;
+        padding-top: 15px;
+        background-color: #4a5568;
 
+    }
+    .custom-slide{
+        text-align: center;
+    }
+    img.slider-img{
+        height: 300px !important;
+    }
+    .slider-text{
+        padding-top: 10px;
+        color: #ffffff;
+    }
+    .trending-image{
+        height: 100px;
+    }
+    .trending-item{
+        float: left;
+        width: 20%;
+        align-items: center;
+        text-align: center;
+    }
+    .trending-text{
+        text-align: center;
+        color: #ffffff;
+    }
+    .detail-img{
+        height: 300px;
+    }
+    .search-box{
+        width: 600px!important;
+    }
+    .searched-image{
+        height: 150px;
+        margin-left: 50px;
     }
 </style>
 </html>

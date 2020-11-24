@@ -1,7 +1,7 @@
-<div class="card text-white bg-dark" >
+<div class="card text-white bg-dark" style="margin-top: 15px">
     <div class="card-body">
         <blockquote class="blockquote mb-0">
-            <p>
+            <p style="text-align: center">
                 “We see our customers as invited guests to a party, and we are the hosts.
                 It’s our job every day to make every important aspect of the customer experience a little bit better.”
             </p>
